@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Next.js
+.next/
+out/
+dist/
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# Database (مهم - فایل دیتابیس را آپلود نکن!)
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+database/trading.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System
+.DS_Store
+Thumbs.db
+
+# Build
+build/
+.vercel
